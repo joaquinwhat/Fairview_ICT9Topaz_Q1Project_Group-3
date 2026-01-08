@@ -28,6 +28,14 @@
         height: auto;
         border-radius: 15px;
         }
+
+       .form-label-custom {
+        font-family: Comic Sans;  
+        font-size: 18px;              
+        font-weight: 500;            
+        color: #000;                 
+    }
+
     </style>
 </head>
 <body>
@@ -72,30 +80,35 @@
 
 <div class="text-center container bg-secondary bg-opacity-75 text-dark rounded shadow">
     <p class="fw-bold display-3">Enroll</p>
-    <span class="description-text">Here, you can enroll your child in our school. Fill out the form below to get started.</span>
+    <span class="description-text">Here, you can enroll your child in our school. Fill out the enrollment form below to get started on your little one's development!</span>
 
     <form class="mt-4 mb-4">
-        <div class="mb-3">
-            <label for="studentName" class="form-label">Student Name</label>
-            <input type="text" class="form-control" id="studentName" placeholder="Enter student's full name">
-        </div>
-        <div class="mb-3">
-            <label for="parentName" class="form-label">Parent/Guardian Name</label>
-            <input type="text" class="form-control" id="parentName" placeholder="Enter parent/guardian's full name">
-        </div>
-        <div class="mb-3">
-            <label for="contactNumber" class="form-label">Contact Number</label>
-            <input type="tel" class="form-control" id="contactNumber" placeholder="Enter contact number">
-        </div>
-        <div class="mb-3">
-            <label for="selectedCourse" class="form-label">Select Course</label>
-            <select class="form-select" id="selectedCourse">
-                <option selected>Select a course</option>
-                <option value="1">Primary</option>
-                <option value="2">Junior Highschool</option>
-                <option value="3">Senior Highschool</option>
-            </select>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="mb-3">
+    <label for="studentName" class="form-label form-label-custom">Student Name</label>
+    <input type="text" class="form-control" id="studentName" placeholder="Enter student's full name">
+</div>
+
+<div class="mb-3">
+    <label for="parentName" class="form-label form-label-custom">Parent/Guardian Name</label>
+    <input type="text" class="form-control" id="parentName" placeholder="Enter parent/guardian's full name">
+</div>
+
+<div class="mb-3">
+    <label for="contactNumber" class="form-label form-label-custom">Contact Number</label>
+    <input type="tel" class="form-control" id="contactNumber" placeholder="Enter contact number">
+</div>
+
+<div class="mb-3">
+    <label for="selectedCourse" class="form-label form-label-custom">Select Course</label>
+    <select class="form-select" id="selectedCourse">
+        <option selected>Select a course level</option>
+        <option value="1">Casa</option>
+        <option value="2">Primary</option>
+        <option value="3">Junior Highschool</option>
+        <option value="4">Senior Highschool</option>
+    </select>
+</div>
+    <button type="submit" class="btn btn-primary">Submit Form</button>
     </form>
+
 </div>
