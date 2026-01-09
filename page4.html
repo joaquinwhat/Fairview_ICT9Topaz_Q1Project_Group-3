@@ -99,11 +99,14 @@
 
            
             <div class="mb-3 text-start">
-                <label for="contactNumber" class="form-label form-label-custom">Date</label>
-                <input type="tel" class="form-control" id="contactDate" placeholder="MM/DD/YYY">
+             <label for="contactDate" class="form-label form-label-custom">Date</label>
+               <div class="input-group">
+                 <input type="date" class="form-control" id="contactDate">
+               <span class="input-group-text">📅</span>
+               </div>
             </div>
 
-            
+               
             <div class="mb-3 text-start">
                 <label for="contactMessage" class="form-label form-label-custom">Message</label>
                 <textarea class="form-control" id="contactMessage" rows="5" placeholder="Type your message here"></textarea>
@@ -115,3 +118,4 @@
     </div>
 </body>
 </html>
+
