@@ -46,7 +46,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchdgIeG7ozkE0TV__FakwgnYka2ouCJgzNg&s" alt="OBMC Logo" class="rounded-circle img-fluid" id="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchdgIeG7ozkE0TV__FakwgnYka2ouCJgzNg&s"
+                 alt="OBMC Logo"
+                 class="rounded-circle img-fluid"
+                 id="logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -70,23 +73,28 @@
       </div>
     </nav>
 
-    <!-- CONTACT FORM -->
+   
     <div class="container container-section">
+
+        
         <p class="fw-bold display-3 text-center">Contact Us</p>
-        <span class="description-text d-block text-center">
+        <span class="description-text d-block text-center mb-4">
             Have a question or message for us? Fill out the form below and we'll get back to you as soon as possible.
         </span>
 
-        <form class="mt-4 mb-4">
+        
+        <form>
 
             <div class="mb-3">
                 <label for="contactName" class="form-label form-label-custom">Full Name</label>
-                <input type="text" class="form-control" id="contactName" placeholder="E.g. Gerthy B. Bausa">
+                <input type="text" class="form-control" id="contactName"
+                       placeholder="E.g. Gerthy B. Bausa">
             </div>
 
             <div class="mb-3">
                 <label for="contactEmail" class="form-label form-label-custom">Email</label>
-                <input type="email" class="form-control" id="contactEmail" placeholder="example@gmail.com">
+                <input type="email" class="form-control" id="contactEmail"
+                       placeholder="example@gmail.com">
             </div>
 
             <div class="mb-3">
@@ -107,10 +115,9 @@
                 <textarea class="form-control" id="contactMessage" rows="5" placeholder="Type your message here"></textarea>
             </div>
 
-            
-            <div class="text-start">
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </div>
+            <button type="submit" class="btn btn-primary d-block">
+                Send Message
+            </button>
 
         </form>
     </div>
